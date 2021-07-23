@@ -2,7 +2,7 @@
 
 
 
-<h2>Esse projeto foi desenvolvido com *HTML*, *CSS* e *JavaScript*. 
+<h2>Esse projeto foi desenvolvido com *HTML*, *CSS* e *JavaScript*.</2> 
 
 
 
@@ -20,4 +20,4 @@ Utilizando parte do aprendizado até aqui, a proposta do desafio era:
 
 ________________
 
-:wink: Confira o resultado final no link:  
+:wink: Confira o resultado final no link: https://ga-desafio2-ielison.netlify.app/
