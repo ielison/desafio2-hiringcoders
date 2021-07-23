@@ -1,0 +1,81 @@
+<html lang="pt-bt">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro de Produtos</title>
+
+</head>
+
+<body>
+        
+    <header>
+        <div class="container">
+            <img class="logo" src="img/logomarca.png" alt="logotipo" width="70">
+            <div>
+                <h3>
+                    <a class="back" href="index.html">Voltar</a>
+                </h3>
+            </div>
+        </div>
+    </header>
+    
+    <div class="box">
+            <div class="box-item">
+                <h3>Cadastrar Produtos</h3>
+                
+                <div class="item">
+                    <label id="labelNameProduct" for="nameProduct">Nome do produto</label>
+                    <input type="text" id="nameProduct" placeholder="" required>
+                </div>
+
+                <div class="item">
+                    <label id="labelPrice" for="price">Preço</label>
+                    <input type="text" id="price" placeholder="" required >
+                </div>
+
+                <div class="item">
+                    <label label="labelSize" for="size">Tamanho</label>
+                    <input type="text" id="size" placeholder="" required >
+                </div>
+
+                <div class="item">
+                    <label id="labelDescription"  for="description" >Descrição</label>
+                    <input type="text" id="description" placeholder="" required>
+                </div>
+
+                    <div class="btn">
+                        <button onclick="salvarConteudoStorage()" > Cadastrar </button>
+                    </div>
+            </div>
+    </div>
+</div>
+    
+
+<div class="tabela">
+    <table width="30%" border=" solid 1px"  >
+      <th>Produto</th>
+      <th>Preço</th>
+      <th>Tamanho</th>
+      <th>Descrição</th>
+      <tbody id="corpoTabela">
+  
+      </tbody>
+    </table>
+  </div>
+
+<footer>
+    <br>
+    <br>
+    <span class="nome">Desenvolvido por</span>
+    <span>
+    <a href="https://www.github.com/ielison" class="nome">Iélison Barbosa</a>
+    </span>
+</footer>
+
+<script src="js/cadproduto.js"></script>
+
+</body>
+</html>
