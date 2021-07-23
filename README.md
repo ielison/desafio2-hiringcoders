@@ -2,7 +2,7 @@
 
 
 
-<h2>Esse projeto foi desenvolvido com *HTML*, *CSS* e *JavaScript*.</2> 
+<h2>Esse projeto foi desenvolvido com *HTML*, *CSS* e *JavaScript*.</h2> 
 
 
 
